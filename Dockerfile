@@ -91,5 +91,3 @@ RUN set +x \
   && echo "America/New_York" >  /etc/timezone \
   && date
 
-# drop back to the regular jenkins user - good practice
-USER jenkins
